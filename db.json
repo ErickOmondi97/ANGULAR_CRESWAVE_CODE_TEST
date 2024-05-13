@@ -1,0 +1,14 @@
+{
+  "tasks": [
+  {"id": 1, "title": "Ecare Africa Health Systems Medical Equipment Integrations", "description": "Moderate Task", "status": true},
+  {"id": 2, "title": "E-payrent Systems Integrations", "description": "Hard Task", "status": true},
+  {"id": 3, "title": "Swiftsend Bulk SMS", "description": "Easy Task", "status": true},
+  {"id": 4, "title": "SwiftFood Meals Ordering", "description": "Easy Task", "status": false},
+  {"id": 5, "title": "PesaConnect Gateway", "description": "Hard Task", "status": false},
+  {"id": 6, "title": "Automated Email Sending", "description": "Moderate Task", "status": false},
+  {"id": 7, "title": "USSD Chat Service", "description": "Easy Task", "status": true},
+  {"id": 8, "title": "Paypal Integration", "description": "Hard Task", "status": false},
+  {"id": 9, "title": "Backend Integration", "description": "Easy Task", "status": true},
+  {"id": 10, "title": "Monthly SMS Reminders", "description": "Moderate Task", "status": true}
+  ]
+}
