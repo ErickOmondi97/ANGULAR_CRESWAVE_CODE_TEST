@@ -1,6 +1,12 @@
-import { TasksComponent } from './tasks/tasks.component';
+import { MainTableComponent } from './component/main-table/main-table.component';
 import { Routes } from '@angular/router';
+import { NotFoundComponent } from './component/not-found/not-found.component';
+
 
 export const routes: Routes = [
-  { path: 'app-tasks', component: TasksComponent }
+  {path: 'main-table', component: MainTableComponent},
+  {path: '', redirectTo:'main-table', pathMatch:'full'},
+  {path: '**', component: NotFoundComponent}
+
+
 ];

@@ -1,13 +1,21 @@
+import { RouterModule, RouterOutlet } from '@angular/router';
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { TasksComponent } from './tasks/tasks.component';
+
+import { EditComponent } from './component/edit/edit.component';
+import { MainTableComponent } from './component/main-table/main-table.component';
+import { NotFoundComponent } from './component/not-found/not-found.component';
+
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet,
-    TasksComponent
+    EditComponent,
+    MainTableComponent,
+    NotFoundComponent,
+    RouterModule,
+    RouterOutlet
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

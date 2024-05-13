@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ANGULAR_CRESWAVE_CODE_TEST' title`, () => {
+  it(`should have the 'task-management-application' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ANGULAR_CRESWAVE_CODE_TEST');
+    expect(app.title).toEqual('task-management-application');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ANGULAR_CRESWAVE_CODE_TEST');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, task-management-application');
   });
 });
