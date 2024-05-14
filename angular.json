@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "task-management-application": {
+    "ANGULAR_CRESWAVE_CODE_TEST": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/task-management-application",
+            "outputPath": "dist/angular-creswave-code-test",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "task-management-application:build:production"
+              "buildTarget": "ANGULAR_CRESWAVE_CODE_TEST:build:production"
             },
             "development": {
-              "buildTarget": "task-management-application:build:development"
+              "buildTarget": "ANGULAR_CRESWAVE_CODE_TEST:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "task-management-application:build"
+            "buildTarget": "ANGULAR_CRESWAVE_CODE_TEST:build"
           }
         },
         "test": {
@@ -100,6 +100,6 @@
     }
   },
   "cli": {
-    "analytics": "15cfc156-2be3-436c-9c84-a16930c098c4"
+    "analytics": "52f4cdc6-cae9-4e00-ba4f-902ab8de5c54"
   }
 }
